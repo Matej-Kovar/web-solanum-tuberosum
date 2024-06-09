@@ -9,6 +9,12 @@ p {
     font-family: "teachers", sherif;
     font-size: 20px !important;
 }
+img{
+    width: 512px;
+}
+footer{
+    margin-bottom: 40px;
+}
 .icon{
     font-size: 75px !important;
 }
@@ -17,4 +23,57 @@ p {
 }
 .subtitle{
     margin: 2em;
+}
+a{
+    color: black;
+}
+.col-4{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 960px){
+    .row{
+        width: 100%;
+    }
+    .card{
+        margin-left:0px;
+        margin-right:0px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    .col-5{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    .col{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+        display: flex;
+        justify-content: center;
+    }
+    .col-4{
+        flex: 0 0 91.66667%;
+        max-width: 91.66667%;
+    }
+    article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+ 
+    }
+    h1{
+        text-align: center;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
 }
